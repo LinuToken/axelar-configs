@@ -831,6 +831,38 @@
           "tokenManagerType": "mintBurn"
         }
       ]
+    },
+    "0xc782d94448ea8810ab17d32c354f84e8adc70a88c9bb1dfd8ccf8a3ca5a44acb": {
+      "tokenId": "0xc782d94448ea8810ab17d32c354f84e8adc70a88c9bb1dfd8ccf8a3ca5a44acb",
+      "deployer": "0xa57C4B6aa82139ebB38cF527328f72dcbdb8114C",
+      "originalMinter": null,
+      "prettySymbol": "LINU",
+      "decimals": 18,
+      "originAxelarChainId": "ethereum",
+      "tokenType": "canonical",
+      "deploySalt": "0x",
+      "iconUrls": {
+        "svg": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/linu.svg"
+      },
+      "deploymentMessageId": "0x8d992a8f4abbe2f7b5f41680987900f423912d837fa19472fcb575f7af699a8c-78",
+      "chains": [
+        {
+          "symbol": "LINU",
+          "name": "Luna Inu",
+          "axelarChainId": "ethereum",
+          "tokenAddress": "0x78132543d8e20d2417d8a07d9ae199d458a0d581",
+          "tokenManager": "0xe91d0C10058879b4aa62Ea0B03529842934229bE",
+          "tokenManagerType": "lockUnlock"
+        },
+        {
+          "symbol": "LINU",
+          "name": "Luna Inu",
+          "axelarChainId": "base",
+          "tokenAddress": "0x64Dc973884456733323B2EA5aB51269493bDafcE",
+          "tokenManager": "0xe91d0C10058879b4aa62Ea0B03529842934229bE",
+          "tokenManagerType": "mintBurn"
+        }
+      ]
     }
   }
 }
